@@ -1,0 +1,27 @@
+{
+  "name": "tournaments-db",
+  "version": "0.0.1",
+  "description": "tournaments db",
+  "main": "scraper.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scrape": "node -e \"require('./scraper.js').scrapeToCSV()\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vikashsahu/tournaments-db.git"
+  },
+  "keywords": [
+    "tournament"
+  ],
+  "author": "vikashsahu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vikashsahu/tournaments-db/issues"
+  },
+  "homepage": "https://github.com/vikashsahu/tournaments-db#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "fs": "0.0.1-security"
+  }
+}

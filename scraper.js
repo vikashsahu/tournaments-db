@@ -4,7 +4,7 @@ const fs = require('fs');
 // v1 of this project is just to list the tournaments in a simple frontend. a nice side project idea would be to ultimately
 // build the full-fledged database of players as well and have an API surrounding it. even cooler would be to implement
 // the ratings pass algorithm and process results from an omnipong URL, bypassing the need for scraping simplycompete.
-// what i do wonder though, is how would be ultimately reconcile diverging information, should this arise? (tbd)
+// what i do wonder though, is how would we ultimately reconcile diverging information, should this arise? (tbd)
 
 const star = '☆';
 const resultsNotProcessed = 'Results not processed yet';
